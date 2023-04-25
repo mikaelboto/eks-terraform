@@ -187,3 +187,6 @@ resource "aws_iam_role_policy" "as_policy-prod" {
 }
 EOF
 }
+
+####################ELASTICSEARCH############
+

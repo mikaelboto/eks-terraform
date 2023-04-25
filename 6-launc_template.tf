@@ -1,4 +1,4 @@
-resource "aws_launch_template" "foo-pdv-sdx" {
+resource "aws_launch_template" "lt-inforplus-prod" {
   name = "lt-inforplus-prod"
 
   instance_type = "t3.medium"
