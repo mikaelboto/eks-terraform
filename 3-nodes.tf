@@ -25,7 +25,7 @@ resource "aws_eks_node_group" "eks-node-group-prod" {
   }
 
   labels = {
-    role = "omni-pdv-sandbox"
+    role = "role-prod-inforplus"
   }
 
   depends_on = [
